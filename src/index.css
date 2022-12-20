@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.my-page {
+  margin: 2rem auto;
+  padding: 1rem;
+  width: 70%;
+  background-color: #ccc;
+}
+
+.dark {
+  background-color: #fff;
+  filter: invert(1);
+}
+
+.greetings {
+  font-style: italic;
+}
